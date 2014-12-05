@@ -8,7 +8,7 @@ Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This is a plugin for the festive season. Spread some snow on your website with this amazing plugin.
+Spread some snow on your website with this amazing plugin.
 
 == Description ==
 This is a plugin for the festive season. This plugin displays a snowfall with various snowflakes colors and sizes. Amaze your website visitors with a snowfall in winter or for that matter any season you want!
