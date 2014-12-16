@@ -1,39 +1,28 @@
 <?php
 /**
  * @package Snow_My_WP
- * @version 0.1
+ * @version 1.0
  */
 /*
 Plugin Name: Snow My WP
 Plugin URI: http://wordpress.org/plugins/snow-my-wp/
 Description: A festive plugin for an awesome snowfall on your website.
 Author: Chetan Vengurlekar
-Version: 0.1
-Author URI: http://www.sarvisolutions.com/author/chetan
+Version: 1.0
+Author URI: http://www.sarvisolutions.com/
 */
 function snow_my_wp() {
 ?>
 <!-- snow_my_wp [ start ] -->
 <script type="text/javascript">
-// Set the number of snowflakes (more than 30 - 40 not recommended)
-var maxsnow=50
-// Set the colors for the snow. Add as many colors as you like
-var colorsnow=new Array("#aaaacc","#ddddff","#ccccdd","#f3f3f3","#f0ffff","#bbf7f9")
-// Set the fonts, that create the snowflakes. Add as many fonts as you like
-var typesnow=new Array("Times","Arial","Times","Verdana")
-// Set the letter that creates your snowflake (recommended: * )
-var lettersnow="*"
-// Set the speed of sinking (recommended values range from 0.3 to 2)
-var sinkspeed=0.6
-// Set the maximum-size of your snowflakes
-var maxsnowsize=30
-// Set the minimal-size of your snowflakes
-var minsnowsize=8
-// Set the snowing-zone
-// Set 1 for all-over-snowing, set 2 for left-side-snowing
-// Set 3 for center-snowing, set 4 for right-side-snowing
-var snowingzone=1
-///////////////////////////////////////////////////////////////////////////
+var maxsnow=45 // Number of snowflakes
+var colorsnow=new Array("#aaaacc","#ddddff","#ccccdd","#f3f3f3","#f0ffff","#bbf7f9") // Colors for the snow
+var typesnow=new Array("Times","Arial","Times","Verdana")// Fonts for the snowflakes
+var lettersnow="*" // Letter that creates the snowflake (recommended: * )
+var sinkspeed=0.75 // Speed of sinking (recommended values range from 0.3 to 2)
+var maxsnowsize=30 // Maximum size of the snowflakes
+var minsnowsize=8 // Minimum size of the snowflakes
+var snowingzone=1 // Snowing zone : Set 1 for all-over-snowing, Set 2 for left-side-snowing, Set 3 for center-snowing, set 4 for right-side-snowing
 var snow=new Array()
 var marginbottom
 var marginright
