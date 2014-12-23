@@ -7,7 +7,7 @@
 Plugin Name: Snow My WP
 Plugin URI: http://wordpress.org/plugins/snow-my-wp/
 Description: A festive plugin for an awesome snowfall on your website.
-Author: Chetan Vengurlekar
+Author: Chetan Vengurlekar, Sarvi Solutions
 Version: 1.0
 Author URI: http://www.sarvisolutions.com/
 */
